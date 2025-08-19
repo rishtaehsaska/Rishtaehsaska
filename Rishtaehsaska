@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>رشتہ احساس کا رجسٹریشن فارم</title>
+  <style>
+    body {
+      font-family: 'Noto Nastaliq Urdu', serif;
+      background: #f9f9f9;
+      margin: 0;
+      padding: 0;
+      direction: rtl;
+    }
+    header {
+      background: #b30059;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 28px;
+      font-weight: bold;
+    }
+    .container {
+      width: 80%;
+      margin: 20px auto;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #b30059;
+    }
+    label {
+      font-weight: bold;
+    }
+    input, select, textarea {
+      width: 100%;
+      padding: 8px;
+      margin: 5px 0 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      background: #b30059;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #800040;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #f0f0f0;
+      margin-top: 20px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    رشتہ احساس کا رجسٹریشن فارم
+  </header>
+
+  <div class="container">
+    <h2>فارم جمع کرائیں</h2>
+    <form>
+      <label>نام:</label>
+      <input type="text" required>
+
+      <label>والد کا نام:</label>
+      <input type="text" required>
+
+      <label>عمر:</label>
+      <input type="number" required>
+
+      <label>صنف:</label>
+      <select>
+        <option>مرد</option>
+        <option>عورت</option>
+      </select>
+
+      <label>رابطہ نمبر:</label>
+      <input type="text" value="03214789970">
+
+      <label>ای میل:</label>
+      <input type="email" value="s67752978@gmail.com">
+
+      <label>پتہ:</label>
+      <textarea></textarea>
+
+      <button type="submit">فارم جمع کریں</button>
+    </form>
+  </div>
+
+  <footer>
+    رابطہ: 03214789970 | ای میل: s67752978@gmail.com
+  </footer>
+</body>
+</html>
